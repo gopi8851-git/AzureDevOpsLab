@@ -87,7 +87,7 @@ namespace DemoAngularCrudApi.Controllers
                 }
                 else
                 {
-                    throw ex;
+                    throw new Exception(ex.Message);
                 }
             }
 
