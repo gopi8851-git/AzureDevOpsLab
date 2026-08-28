@@ -34,7 +34,8 @@ namespace DemoAngularCrudApi.Controllers
             new Customer { Id = 1, Name = "John Doe", PhoneNo = "123-456-7890", Address = "123 Main St, Anytown, USA", Amt = 100 },
             new Customer { Id = 2, Name = "Jane Smith", PhoneNo = "987-654-3210", Address = "456 Elm St, Othertown, USA", Amt = 200 },
             new Customer { Id = 3, Name = "Alice Johnson", PhoneNo = "555-555-5555", Address = "789 Oak St, Sometown, USA", Amt = 300 },
-            new Customer { Id = 4, Name = "Bob Brown", PhoneNo = "444-444-4444", Address = "321 Pine St, Anycity, USA", Amt = 400 }
+            new Customer { Id = 4, Name = "Bob Brown", PhoneNo = "444-444-4444", Address = "321 Pine St, Anycity, USA", Amt = 400 },
+            new Customer { Id = 5, Name = "Charlie Davis", PhoneNo = "333-333-3333", Address = "654 Maple St, Anycity, USA", Amt = 500 }
         };
         // GET: api/Customers
         [HttpGet]
